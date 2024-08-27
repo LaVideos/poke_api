@@ -1,0 +1,7 @@
+@import './variables.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+::-webkit-scrollbar {
+    width: 0;
+    background: rgba(255, 255, 255, 0.0);
+}

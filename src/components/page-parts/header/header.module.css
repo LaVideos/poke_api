@@ -1,0 +1,39 @@
+.headerContainer{
+    width: 100% ;
+    background: var(--red);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: var(--full-shadow);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.pokeapiPng{
+    height: 80px;
+    padding: 5px;
+}
+
+
+.navBox{
+    background: var(--red);
+    display: flex;
+    flex-direction: row;
+}
+
+.link{
+    margin: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--bg);
+}
+
+.activeLink {
+    color: var(--yellow);
+    margin: 5px;
+
+}

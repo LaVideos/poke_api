@@ -1,0 +1,62 @@
+
+.wrapContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer {
+    max-width: 600px;
+    padding: 20px;
+    background-color: var(--bg);
+    border-radius: 8px;
+    box-shadow: var(--half-shadow);
+margin-top: 100px;
+}
+
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.checkboxGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkboxGroup span {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.selectGroup {
+    margin-bottom: 15px;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+}
+
+.dataContainer {
+    background: var(--bg);
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: var(--half-shadow);
+}
+
+.dataContainer div {
+    margin-bottom: 10px;
+}
+
+.loadingContainer{
+    margin-top: 200px;
+}

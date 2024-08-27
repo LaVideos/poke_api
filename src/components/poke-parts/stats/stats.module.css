@@ -1,0 +1,13 @@
+.statContainer{
+   display: flex;
+    margin: 5px;
+    color: var(--text-color);
+}
+
+.stat{
+
+}
+
+.statRes{
+color: var(--blue);
+}
